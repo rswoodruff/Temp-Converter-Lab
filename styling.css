@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    border: 1px solid black;
+}
+#container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ #container2 {
+     display: flex;
+     flex-direction: column;
+ }
+ button {
+        background-color: rgb(223, 249, 250);
+        padding:5px 20px;
+ }
