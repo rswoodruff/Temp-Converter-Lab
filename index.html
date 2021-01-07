@@ -2,21 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=h, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styling.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperture Conversion</title>
+    <link rel="stylesheet" href="css/styling.css">
 </head>
 <body>
     <h1>Temperature Scale Convertor</h1>
     <div id="container1">
         <p>Fahrenheit</p>
     <div id="container2">
-        <label id=fValue">Value</label>
-        <input autofocus type="number" name="fValue id="fValue" value=" ">
+        <label for=fValue">Value</label>
+        <input autofocus type="text" id="fValue" value=" ">
     </div>
-        <button type="button">Calculate</button>
+        <button type="button" id="button">Calculate</button>
     </div>  
     <p><strong>Celsius</strong></p>
     <p id="celsiusResult"></p> 
+    <script src="js/temperature.js"></script>
 </body>
 </html>
