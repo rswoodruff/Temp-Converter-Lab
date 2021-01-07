@@ -6,7 +6,7 @@ button.addEventListener('click',  () => {
     if(fValue == false ) {
         alert('Please provide a number value');
     } else {
-    let answer = (fValue - 32) * 5 / 9 ;
-    return celsiusResult.innerHTML = answer ;
+    let result = Math.floor((fValue - 32) * 5 / 9) ;
+    return celsiusResult.innerHTML = result;
     }
 });

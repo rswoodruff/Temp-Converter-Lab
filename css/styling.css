@@ -14,6 +14,17 @@ body {
      flex-direction: column;
  }
  button {
-        background-color: rgb(223, 249, 250);
-        padding:5px 20px;
+    background-color: rgb(223, 249, 250);
+    padding:5px 20px;
+    height: fit-content;
+ }
+ input {
+    text-align: center;
+ }
+ #celsius {
+     margin-bottom: 5px;
+     margin-top: 40px;
+ }
+ #celsiusResult {
+    margin-top: 0;
  }
