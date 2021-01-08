@@ -17,6 +17,7 @@ body {
     background-color: rgb(223, 249, 250);
     padding:5px 20px;
     height: fit-content;
+    margin-top: 14px;
  }
  input {
     text-align: center;
